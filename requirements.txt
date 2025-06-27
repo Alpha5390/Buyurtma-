@@ -1,0 +1,5 @@
+requests
+numpy
+beautifulsoup4
+scikit-learn
+python-telegram-bot==13.15
