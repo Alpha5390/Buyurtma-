@@ -137,7 +137,7 @@ def asosiy_menyu(update: Update, foydalanuvchi_id: str):
         if update.message:
             update.message.reply_text(
                 f"Asosiy menyu | Akkaunt: {akkaunt_nomi}",
-                reply_markup=InlineKeyboardMarkup(tugmalar)
+                reply_markup=InlineKeyboardMarkup(tugmalar))
         else:
             update.callback_query.edit_message_text(
                 f"Asosiy menyu | Akkaunt: {akkaunt_nomi}",
