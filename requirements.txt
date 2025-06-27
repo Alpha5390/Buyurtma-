@@ -1,5 +1,1 @@
-requests
-numpy
-beautifulsoup4
-scikit-learn
-python-telegram-bot==13.15
+pip install python-telegram-bot numpy scikit-learn beautifulsoup4 requests
