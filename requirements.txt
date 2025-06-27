@@ -1,4 +1,5 @@
 pip install python-telegram-bot
-numpy scikit-learn 
+numpy
+scikit-learn 
 beautifulsoup4 
 requests
