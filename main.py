@@ -4,7 +4,7 @@ import numpy as np
 from bs4 import BeautifulSoup
 from sklearn.ensemble import RandomForestRegressor
 from telegram import Update, Bot, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext, CallbackQueryHandler
 from datetime import datetime
 import logging
 
